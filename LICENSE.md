@@ -428,4 +428,4 @@ Creative Commons may be contacted at creativecommons.org.
 
 =======================================================================
 
-This repository uses content from Mundo Gaturri Wiki under the CC BY-SA license.
+This repository uses content from Mundo Gaturro Wiki under the CC BY-SA license.
