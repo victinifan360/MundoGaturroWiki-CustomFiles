@@ -1,0 +1,14 @@
+/* Los estilos CSS definidos aquí se aplicarán a todas las pieles (skins) */
+@import "/index.php?title=MediaWiki:Common.css&action=raw&ctype=text/css";
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+/* Formato del foro */
+.forumheader { border: 1px solid #aaa; background-color: #f9f9f9; color: #000; margin-top: 1em; padding: 12px; }
+.forumlist td.forum_edited a {	color: black; text-decoration: none }
+.forumlist td.forum_title a {	padding-left: 20px; }
+.forumlist td.forum_title a.forum_new { font-weight: bold; background: url(//www.wikia.com/images/4/4e/Forum_new.gif) center left no-repeat; padding-left: 20px; }
+.forumlist td.forum_title a.forum_new:visited { font-weight: normal; background: none; padding-left: 20px; }
+.forumlist th.forum_title {	padding-left: 20px; }
