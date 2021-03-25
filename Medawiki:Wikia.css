@@ -1,0 +1,520 @@
+/* IMPORTAR LAS FUENTES NECESARIAS */
+@import "/index.php?title=MediaWiki:Common.css&action=raw&ctype=text/css";
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+@import url('https://fonts.googleapis.com/css?family=Berlin+Sans+FB+Demi');
+
+/*  Importaciones de Sub-paginas MediaWiki   */
+@import "/index.php?title=MediaWiki:Usuarios.css&action=raw&ctype=text/css";
+
+ /***** IMPORTAR ESTILO DE CHAT *****/
+@import url("/index.php?title=MediaWiki:Chat.css&ctype=text/css&action=raw");
+
+/* FUENTE GENERAL DE TODA LA PAGINA */
+body {
+	font-family: 'Bree Serif', serif;
+}
+
+/* COLORES PARA DISTINGUIR A LOS USUARIOS */
+/* ADMINISTRADORES Y BUROCRATAS */
+a[href$="Faqs!"],
+a[href$="Faqs!"],
+a[href$="Faqs!"] 
+.diff a[title="Usuario:Faqs!"],
+.special li a[title="Usuario:Faqs!"],
+#pagehistory li a[title=":Faqs!"] 
+{
+    color: #FF7500 !important ;
+    font-family:'Luckiest Guy', cursive;
+    font-size:110%;	
+}
+
+a[href$=":DENISACOSTA1997"],
+a[href$="/DENISACOSTA1997"],
+.diff a[title="Usuario:DENISACOSTA1997"],
+.special li a[title="Usuario:DENISACOSTA1997"],
+#pagehistory li a[title=":DENISACOSTA1997"] 
+{color: #006699 !important ;
+    font-family:'Fredoka One', cursive;
+    font-size:110%;
+}
+
+
+a[href$="Terencebird44"],
+a[href$="Terencebird44"],
+a[href$="Terencebird44"] 
+.diff a[title="Usuario:Terencebird44"],
+.special li a[title="Usuario:Terencebird44"],
+#pagehistory li a[title=":Terencebird44"] 
+{
+    color: #DC143C !important ;
+    font-family:'Luckiest Guy', cursive;
+    font-size:110%;	
+}
+
+a[href$="Alejolteon"],
+a[href$="Alejolteon"],
+a[href$="Alejolteon"] 
+.diff a[title="Usuario:Alejolteon"],
+.special li a[title="Usuario:Alejolteon"],
+#pagehistory li a[title=":Alejolteon"] 
+{
+    color: #0080FF !important ;
+    font-family:'Fredoka One', cursive;
+    font-size:110%;	
+}
+
+/** Mainpage Box - Para recuadros movibles **/
+.mainpagebox {
+    text-align: justify;
+    color: White;
+    width: 100%;
+    background: #333333;
+    border-radius: .1em;
+    overflow: hidden;
+}
+ 
+.mainpagebox_header {
+    background: #222222;
+    padding: 15px;
+    border-left: 10px double #8a8a8a;
+    border-right: 10px double #8a8a8a;
+    text-align: left;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: Century Gothic, sans-serif;
+    transition: 0.2s;
+}
+.mainpagebox_header:hover {
+    background: linear-gradient(to right, #00a8de 0%, #fe401c 100%);
+    padding: 15px;
+    border-left: 20px double #00a8d6;
+    border-right: 20px double #fc3a1b;
+    text-align: left;
+    font-size: 25px;
+    font-family: Century Gothic, sans-serif;
+}
+/*** Project Characters ***/
+.MainpageBox {
+	width: 130px;
+	height: 130px;
+	display: block;
+}
+ 
+.main_hover {
+	opacity: 0.8;
+}
+ 
+.main_hover:hover {
+	opacity: 1;
+}
+ 
+.main_hover a {
+	color: #FFFFFF;
+}
+ 
+.main_hover a span:hover {
+	text-shadow: none !important;
+}
+/*Ejemplo de Uso*/
+
+.MainpageBox#Hiro {
+	background-image: url('https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/7/75/PortalHiro.png/revision/latest?cb=20171231055020&path-prefix=es');
+	transition: 0.2s;
+}
+.main_hover:hover #Hiro {
+	background-image: url('https://vignette.wikia.nocookie.net/darling-in-the-franxx/images/7/7c/PortalHiroHover.png/revision/latest?cb=20180221204908&path-prefix=es');
+	transition: 0.2s;
+}
+
+
+
+/*** Cuadro ***/
+.square {
+    text-align: justify;
+    color: White;
+    width: 100%;
+    background: #333333;
+    border-radius: .1em;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.square_header {
+    background: #222222;
+    padding: 10px;
+    border-left: 115px solid #222222;
+    border-bottom: 2px solid #000000;
+    text-align: left;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Century Gothic,sans-serif;
+}
+
+.square_image {
+    border: 2px solid black;
+    border-left: 6px solid #000000;
+    margin: 0px auto -10px;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+    width: 100px;
+    float: left;
+}
+
+
+/* COLORES PARA LOS ARTICULOS H1 Y H2 */
+ 
+/* COLOR DE LA BARRA DE IMAGENES, ACTIVIDAD Y CHAT */
+.WikiaRail .module h1,
+.WikiaRail #RIGHT_SKYSCRAPER h1,
+.WikiaRail .module h2,
+.WikiaRail #RIGHT_SKYSCRAPER h2,
+.WikiaArticleInterlang h3 {
+	font-family: Open Sans;
+	font-size: 19px;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin-bottom: 11px;
+	margin-top: -6px;
+	padding-left: 2px;
+}
+ 
+.módulo,
+#RankingModule,
+.RelatedPagesModule,
+.WikiaRail .module,
+.WikiaRail #RIGHT_SKYSCRAPER,
+.WikiaArticleCategories,
+.WikiaArticleInterlang,
+.ChatModule {
+	background: #f2f2f2 !important;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 5px 0 #e0e0e0;
+	margin-bottom: 10px;
+	padding: 20px 15px 15px;
+	position: relative;
+	word-wrap: break-word;
+}
+
+
+/* COLOR DE LOS HEADERS O ENCABEZADO DE LOS ARTICULOS */
+.WikiaArticle h2 {
+	border-bottom: solid 3px #ff9000;
+	color: #ffa525;
+	font-family: "Open Sans", bold;
+	font-size: 23px;
+	font-variant: small-caps;
+	margin-top: 11px;
+	overflow: hidden;
+	padding: 0.3em;
+}
+
+/* Giro */
+
+.giro img {
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.giro img:hover {
+-moz-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+/* ENCABEZADO PRINCIPAL*/
+.WikiaHeader {
+	background-image:url(https://images.wikia.nocookie.net/mundogaturro/__cb80/es/images/3/3c/EncabezadoPlaya.png);
+		background-repeat: no-repeat;
+	}
+ 
+
+/* IMAGEN DEL CURSOR*/
+body,
+a:hover {
+	cursor: url("https://vignette.wikia.nocookie.net/mundogaturro/images/7/76/CursorMG.png/revision/latest?cb=20201118215610&format=original&path-prefix=es"), progress;
+}
+
+/* TODO SOBRE EL ENCABEZADO*/
+
+/* Encabezado */
+.WikiHeader { 
+    background: url("https://images.wikia.nocookie.net/mundogaturro/__cb80/es/images/3/3c/EncabezadoPlaya.png");
+}
+
+/* CODIGOS PARA CAMBIAR COLOR DE LOS BOTONES DE NAVEGACION */
+
+.EditPageHeader {
+	z-index: 999;
+}
+.WikiHeader {
+	margin-bottom: 15px;
+}
+.WikiHeader > nav li.marked {
+	background-color: #ffa416;
+}
+.WikiHeader > nav li.marked > a {
+	border-top: none !important;
+}
+.WikiHeader > nav li {
+	border-bottom: none !important;
+}
+.WikiHeader .navbackground div {
+	display: none;
+}
+.WikiHeader > nav li > a {
+	border-left: 1px solid rgba(255, 255, 255, 0.01) !important;
+}
+.WikiHeader ul .nav-item:not(:first-child) {
+	margin-left: 5px;
+}
+.WikiHeader ul .nav-item {
+	background: #fdae33;
+	border-radius: 3px 3px 0 0;
+	transition: background 0.2s;
+}
+.WikiHeader > nav .marked > a:hover {
+	text-decoration: none !important;
+}
+.EditPageHeader * {
+	color: inherit !important;
+}
+
+ 
+/* --- TABLES --- */
+/* DISEÑO DE TABLAS: http://comunidad.wikia.com/wiki/Ayuda:Wikitexto/CSS#Grosor.2C_-type.2C_y_-color
+/* COLOR: http://comunidad.wikia.com/wiki/Ayuda:Color
+/* wiki table style */
+ table.wikitable {
+    margin:1em 1em 1em 0 !important;
+    background:White !important; /*Color Fondo */
+    border:1px Sunglow solid !important; /*ni puta idea */
+    border-collapse:collapse !important; /*ni puta idea */
+    color: #FF9E00 !important; /*Color Letras */
+}
+table.wikitable th, table.wikitable td {
+    border:1px red !important; 
+    padding:0.2em !important;
+    color: inherit !important;
+}
+table.wikitable th {
+    background:#FFDA84 !important; /* Color Barra (imagen,objeto,etc) */
+    text-align:center !important;
+    color: inherit !important;
+}
+table.wikitable caption {
+    margin-left:inherit !important;
+    margin-right:inherit !important;
+    font-weight:Luckiest Guy !important;
+}
+ 
+table.wikitable tr.odd {background:#FF0084 !important;}
+table.wikitable tr.left{text-align:left !important;}
+ 
+table.wikitable th.left {text-align:left !important;}
+ 
+table.wikitable td.high {color: #FF0084 !important; text-align:left !important;font-weight:bold !important;}
+table.wikitable td.left {text-align:left !important;}
+ 
+table.wikitable tr:nth-child(even) {
+    background:#F0EFEE; /* Color fondo 2*/
+}
+
+/* CATEGORIAS: AGRADECIMIENO A WIKI HATSUKOI MONSTER - es.hatsukoimonster.wikia.com */ 
+.article-categories {
+    background: #ffc000 !important;
+    color: #e59804 !important;
+    font-size: 120%;
+    border-radius: 60px;
+    border: 4px;
+}
+.article-categories a:link {
+    color: white;
+    /*text-shadow: 0 0 2px Black;*/
+}
+ 
+.article-categories a:visited {
+    color: white;
+   /* text-shadow: 0 0 2px Black;*/
+}
+ 
+.article-categories a:hover {
+    color: #b07401;
+    /*text-shadow: 0 0 5px Black;*/
+    font-weight: bold;
+}
+ 
+.article-categories a:active {
+    color: #b07401;
+  /*text-shadow: 0 0 5px Black;*/
+    font-weight: bold;
+}
+/* BOTON DE AÑADIR CATEGORIA  */
+.CategorySelect.articlePage .add {
+    background-image: none;
+    background-color: #daa504;
+    border: solid 1px #af8505;
+   color: white;
+   font-family: 'Fredoka One', cursive;
+   margin: 1px 10px 1px 20px;
+}
+
+
+
+/* BORDES DE LA PAGINA */
+.WikiaPage {
+	border: 2px solid #ff9c00;
+	box-shadow: 0 0 1em #ffd086;
+}
+
+ 
+/* COLORES PARA LOS ARTICULOS H1 Y H2 */
+ 
+/* COLOR DE LA BARRA DE IMAGENES, ACTIVIDAD Y CHAT */
+.WikiaRail .module h1,
+.WikiaRail #RIGHT_SKYSCRAPER h1,
+.WikiaRail .module h2,
+.WikiaRail #RIGHT_SKYSCRAPER h2,
+.WikiaArticleInterlang h3 {
+	font-family: Open Sans;
+	font-size: 19px;
+	font-variant: small-caps;
+	font-weight: normal;
+	margin-bottom: 11px;
+	margin-top: -6px;
+	padding-left: 2px;
+}
+ 
+.módulo,
+#RankingModule,
+.RelatedPagesModule,
+.WikiaRail .module,
+.WikiaRail #RIGHT_SKYSCRAPER,
+.WikiaArticleCategories,
+.WikiaArticleInterlang,
+.ChatModule {
+	background: #f2f2f2 !important;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 5px 0 #e0e0e0;
+	margin-bottom: 10px;
+	padding: 20px 15px 15px;
+	position: relative;
+	word-wrap: break-word;
+}
+
+
+/* COLOR DE LOS HEADERS O ENCABEZADO DE LOS ARTICULOS */
+.WikiaArticle h2 {
+	border-bottom: solid 3px #ff9000;
+	color: #ffa525;
+	font-family: "Open Sans", bold;
+	font-size: 23px;
+	font-variant: small-caps;
+	margin-top: 11px;
+	overflow: hidden;
+	padding: 0.3em;
+}
+
+/*Editor de Mecanismos de Logo y de Nav */
+/* Acercamiento al logo */
+ 
+.WikiHeader .wordmark {
+    -moz-transform: rotate(0deg) scale(1) skew(180deg) translate(0px);
+    -moz-transition: All 0.6863s ease;
+    -o-transform: rotate(0deg) scale(1) skew(180deg) translate(0px);
+    -o-transition: All 0.6863s ease;
+    -webkit-transform: rotate(0deg) scale(1) skew(180deg) translate(0px);
+    -webkit-transition: All 0.6863s ease;
+    color: #708090;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 250px;
+    word-wrap: break-word;
+}
+ /* Acercamiento al logo */
+ 
+.WikiHeader .wordmark:hover {
+    -webkit-transform: rotate(1deg) scale(1.090) skew(180deg) translate(0px);
+    -moz-transform: rotate(1deg) scale(1.090) skew(180deg) translate(0px);
+    -ms-transform: rotate(1deg) scale(1.090) skew(180deg) translate(0px);
+    -o-transform: rotate(1deg) scale(1.090) skew(180deg) translate(0px);
+}
+ 
+a.wikia-photogallery-add.wikia-button.noprint {
+    display: none;
+}
+.WikiaArticle h3 {
+	border-bottom: 1px dotted #fc9d22;
+	color: #fc9d22;
+	font-size: 18px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.WikiaArticle h4 {
+	color: #fc9d22;
+	font-size: 16px;
+	font-variant: small-caps;
+}
+.description h2 {
+	color: #fff !important;
+	font-size: 17px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* Sección 6: Estilo de wikiactividad. */
+/** 6.1. AjaxRCRefresh. **/
+#ajaxToggleText {
+	background-color: #fbfbfb;
+	border-left: 5px solid #f3920f;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	color: #000;
+	margin: 0.5em;
+	overflow: hidden;
+	padding-left: 5px;
+	transition: all 0.3s;
+}
+#ajaxToggleText:hover {
+	border-left-width: 9px;
+}
+/** 6.2. WikiActividad. - Agradecimientos a es.nomanssky - **/
+.activityfeed > li {
+	background-color: #fbfbfb;
+	border-left: 5px solid #fbfbfb;
+	border-radius: 3px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	margin: 0.5em;
+	overflow: hidden;
+	padding-left: 3em;
+	transition: all 0.3s;
+}
+.activity-type-edit {
+	border-left-color: #f3920f !important;
+}
+.activity-type-new {
+	border-left-color: skyblue !important;
+}
+.activity-type-talk {
+	border-left-color: silver !important;
+}
+.activity-type-categorization {
+	border-left-color: #b76801 !important;
+}
+.activityfeed > li:hover {
+	border-left-width: 9px;
+}
