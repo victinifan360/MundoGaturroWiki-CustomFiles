@@ -1,0 +1,128 @@
+/* Animacion imagen perfil de usuario */
+.UserProfileMasthead .masthead-avatar {
+	opacity: 0.7;
+	transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+	transition: All 0.6863s ease;
+border-radius: 2px;
+}
+.UserProfileMasthead .masthead-avatar:hover {
+	opacity: 1;
+	transform: rotate(6deg) scale(1.1) skew(0deg) translate(0px);
+transition: All 1s ease;
+}
+.UserProfileMasthead .masthead-avatar .avatar {
+    border-radius: 15px;
+}
+/* Estilo de letras de nick's */
+a[href$=":¡Faqs"] {
+	color: #CD30FF !important;
+	font-family: Luckiest Guy;
+	font-size: 150%;
+	font-variant: small-caps;
+}
+/* Perfil User:¡Faqs!  */
+body.mediawiki.page-Usuario_¡Faqs .UserProfileMasthead .masthead-info {
+	background: url("https://vignette.wikia.nocookie.net/mundogaturro/images/9/9d/PARK-KITE.png/revision/latest?cb=20150131220619&path-prefix=es") no-repeat;
+	border-radius: 15px;
+	color: black;
+	background-size: 100%;
+}
+body.mediawiki.page-Usuario_¡Faqs .UserProfileMasthead .masthead-info hgroup {
+	background-position: -74px;
+	background: Sunglow;
+	border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+	overflow: auto;
+}
+.UserProfileMasthead .masthead-info-lower:before {
+display: none;
+}
+/* Muro User:Faqs! */
+body.mediawiki.page-Muro_¡Faqs .UserProfileMasthead .masthead-info {
+    background:Sunglow;
+	border-radius: 15px;
+	color: black;
+	background-size: 100%;
+}
+/** Masthead info de usuario barra Muro**/
+body.mediawiki.page-Muro_¡Faqs .UserProfileMasthead .masthead-info hgroup { 
+    background-position: -74px;
+	background: Sunglow;
+	border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+	overflow: auto;
+}
+/*------------------------------------------------------------------------ */
+/* Estilo de letras de nick's */
+a[href$=":DENISACOSTA1997"] {
+	color: #00FFFF !important;
+	font-family: Fredoka On;
+	font-size: 150%;
+	font-variant: small-caps;
+}
+/* Perfil User:DENISACOSTA1997  */
+body.mediawiki.page-Usuario_DENISACOSTA1997 .UserProfileMasthead .masthead-info {
+	background: White;
+	border-radius: 15px;
+	color: black;
+	background-size: 100%;
+}
+body.mediawiki.page-Usuario_DENISACOSTA1997 .UserProfileMasthead .masthead-info hgroup {
+	background-position: -74px;
+	background: Sunglow;
+	border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+	overflow: auto;
+}
+.UserProfileMasthead .masthead-info-lower:before {
+display: none;
+}
+/* Muro User:DENISACOSTA1997  */
+body.mediawiki.page-Muro_DENISACOSTA1997 .UserProfileMasthead .masthead-info {
+    background:Sunglow;
+	border-radius: 15px;
+	color: black;
+	background-size: 100%;
+}
+/** Masthead info de usuario barra Muro**/
+body.mediawiki.page-Muro_DENISACOSTA1997 .UserProfileMasthead .masthead-info hgroup { 
+    background-position: -74px;
+	background: Sunglow;
+	border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+	overflow: auto;
+}
+/*----------------------------------------------------------------------*/
+/* Perfil User:Csuarezllosa  */
+/* Estilo de letras de nick's */
+a[href$=":Csuarezllosa"] {
+	color: #000 !important;
+	font-family: Didact Gothic;
+	font-size: 150%;
+	font-variant: small-caps;
+}
+/* Perfil User:Csuarezllosa  */
+body.mediawiki.page-Usuario_Csuarezllosa .UserProfileMasthead .masthead-info {
+	background: url("https://vignette.wikia.nocookie.net/biblioteca-virtual-de-literatura/images/2/2a/Biblioteca_virtual.jpg/revision/latest?cb=20170301051214&path-prefix=es") no-repeat;
+	border-radius: 15px;
+	color: black;
+	background-size: 100%;
+}
+body.mediawiki.page-Usuario_Csuarezllosa .UserProfileMasthead .masthead-info hgroup {
+	background-position: -74px;
+	background: black;
+	border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+	overflow: auto;
+}
+.UserProfileMasthead .masthead-info-lower:before {
+display: none;
+}
+/** Masthead info de usuario barra Muro**/
+body.mediawiki.page-Muro_Csuarezllosa .UserProfileMasthead .masthead-info hgroup { 
+    background-position: -74px;
+	background: black;
+	border-top-left-radius: 55px;
+	border-top-right-radius: 55px;
+	overflow: auto;
+}
